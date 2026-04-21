@@ -78,6 +78,7 @@ class MCPClient:
             - Do NOT show errors or internal reasoning.
             - It is ALWAYS refering to "Ranked" gamemode unless the query mention a specific game mode.
             - When pick rates are given change it to percentage value. (E.g. 0.32 -> 32%, 0.78 -> 78%, 0.1 -> 10%)
+            - ALWAYS summarize your answer and keep it short.
 
             Ranking constraints:
             - When returning ranked results, limit to at most 3 unless a number is explicitly requested.

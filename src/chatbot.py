@@ -1,7 +1,11 @@
+import os
+
 from dotenv import load_dotenv
 load_dotenv()
 
-import os
+# Set your API key here.
+if not os.getenv("OPENAI_API_KEY"):
+    os.environ["OPENAI_API_KEY"] = ""
 
 from lcu_driver import Connector
 connector = Connector()
@@ -14,10 +18,6 @@ from guardrails import Guardrails, IS_VALID
 guardrails = Guardrails()
 
 from commands import execute_command
-
-# Set your API key here.
-if "OPENAI_API_KEY" not in os.environ:
-    os.environ["OPENAI_API_KEY"] = ""
 
 blacklist = []
 
