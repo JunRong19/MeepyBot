@@ -77,7 +77,7 @@ Then open src/agents/web_search.py and update the URL accordingly:
 1. Log in to the League of Legends client. (This client will be the chatbot receiving user's messages)
 2. Run chatbot.py:
 ```bash
-python chatbot.py
+python src/chatbot.py
 ```
 3. If everything is done correctly, you should see **"Bot is logged in as: {BotName#Tag}"** in console.
 
