@@ -45,8 +45,6 @@ If you would like to modify or set up your own bot, follow the steps below.
 pip install -r requirements.txt
 ```
 
----
-
 ### 2. Set your OpenAI API key
 
 Open src/chatbot.py and set your OpenAI API key.
