@@ -43,10 +43,10 @@ def web_fetch_tool(query:str, url: str) -> str:
         return "No extracted text."
     
     # Preprocess.
-    content = re.sub(r"\[\d+\]", "", content)   # remove [1], [23], etc.
-    content = re.sub(r"\t", " ", content)       # tabs → space
-    content = re.sub(r"\\'", "'", content)      # \' → '
-    content = re.sub(r"[\\\|\^]", " ", content)  # remove \, |, ^
+    content = re.sub(r"\[\d+\]", "", content)       # remove [1], [23], etc.
+    content = re.sub(r"\t", " ", content)           # tabs → space
+    content = re.sub(r"\\'", "'", content)          # \' → '
+    content = re.sub(r"[\\\|\^]", " ", content)     # remove \, |, ^
     content = re.sub(r"\s+", " ", content).strip()  # normalize all whitespace
     
     # Split content to chunks.
