@@ -80,3 +80,8 @@ Then open src/agents/web_search.py and update the URL accordingly:
 python chatbot.py
 ```
 3. If everything is done correctly, you should see **"Bot is logged in as: {BotName#Tag}"** in console.
+
+## Credits
+- OP.GG mcp - https://op.gg/open-source/opgg-mcp
+- LCU wrapper - https://github.com/sousa-andre/lcu-driver
+- Needlework - https://github.com/BlossomiShymae/Needlework
