@@ -1,0 +1,17 @@
+# League API
+lcu-driver
+
+# Web search and fetch.
+trafilatura
+searxng-wrapper
+
+# Embedding.
+sentence_transformers
+langchain_text_splitters 
+
+langchain
+langchain-core
+langchain-openai
+langchain-community
+langchain-huggingface 
+langchain-mcp-adapters
