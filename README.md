@@ -49,9 +49,9 @@ pip install -r requirements.txt
 
 ### 2. Set your OpenAI API key
 
-Open chatbot.py and set your OpenAI API key.
+Open src/chatbot.py and set your OpenAI API key.
 
-> The bot currently uses an OpenAI model. You may modify it if needed.
+> The bot currently uses OpenAI models. You may modify it if needed.
 
 <img width="308" height="71" alt="image" src="https://github.com/user-attachments/assets/2e0c0a58-660f-4141-a450-0dc7fcb85884" />
 
