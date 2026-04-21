@@ -1,1 +1,1 @@
-![AI Flow](images/MeepyBot_Flow.png)
+![AI Flow](./images/MeepyBot_Flow.png)
