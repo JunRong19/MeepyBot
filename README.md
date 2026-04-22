@@ -8,7 +8,7 @@ Simply send a friend request to **Meepy#Bot** to get started!
 <img width="603" height="134" alt="image" src="https://github.com/user-attachments/assets/89e38ad0-4cc5-451b-896a-c8e30ffd403a" />
 
 ## Real-world usage
-Instead of relying on traditional methods like web browsing or installing third-party tools, users can simply message the chatbot directly in-game to retrieve the information they need in real time.
+Instead of relying on traditional methods like web browsing or installing third-party softwares, users can simply message the chatbot directly in-game to retrieve the information they need in real time.
 
 ### Examples
 > /msg **Meepy#Bot** What does Zed build in mid lane?
