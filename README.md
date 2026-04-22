@@ -31,6 +31,9 @@ Instead of relying on traditional methods like web browsing or installing third-
 3. **Web and MCP Agents**  
    Supports web search functionality and OP.GG MCP agents for retrieving game statistics and information.
 
+## Demo
+<video src="images/Demo.mp4" width="320" height="240" controls></video>
+
 ---
 
 ## Technical flow
