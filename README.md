@@ -22,7 +22,7 @@ Instead of relying on traditional methods like web browsing or installing third-
 > /msg **Meepy#Bot** Who is the current CEO of Riot Games?
 
 **In-game message**
-<img width="626" height="242" alt="image" src="https://github.com/user-attachments/assets/d398072d-75de-4a58-8e18-fa157ff8f1ac" />
+<img width="505" height="187" alt="image" src="https://github.com/user-attachments/assets/d53327e4-93d6-4375-b7b8-d5da839fcaea" />
 
 **Champ select message**
 <img width="352" height="319" alt="image" src="https://github.com/user-attachments/assets/1cfb9ca9-dfb5-45df-bb0d-c2dddfb50583" />
