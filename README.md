@@ -21,6 +21,8 @@ Instead of relying on traditional methods like web browsing or installing third-
 
 > /msg **Meepy#Bot** Who is the current CEO of Riot Games?
 
+<img width="626" height="242" alt="image" src="https://github.com/user-attachments/assets/d398072d-75de-4a58-8e18-fa157ff8f1ac" />
+
 ## Features
 1. **Custom Commands**  
    Use `!help` to view all available commands and how to use them.
@@ -30,7 +32,7 @@ Instead of relying on traditional methods like web browsing or installing third-
 
 3. **Web and MCP Agents**  
    Supports web search functionality and OP.GG MCP agents for retrieving game statistics and information.
-   
+
 ---
 
 ## Technical flow
