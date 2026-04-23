@@ -149,7 +149,7 @@ class WebSearch:
                 - Do NOT get stuck repeating searches indefinitely.
                 - Do NOT guess blindly; base your answer on retrieved content.
                 - Do NOT output URLs.
-                - Keep responses concise and factual.
+                - ALWAYS summarize your answer to at most 300 characters. Keep it concise and to the point. If the answer is too long, prioritize the most relevant information and omit less important details.
                 - Do NOT explain your reasoning or steps.
                 - Do NOT use markdown formatting for emoji when responding back to the user.
                 - ALWAYS give exact number if user ask for specifics. ("How many champions are there?" -> Give exact amount, do not say "more than" or "less than").

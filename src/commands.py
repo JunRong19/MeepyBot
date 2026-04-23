@@ -16,7 +16,7 @@ COMMAND_RESPONSE_MAP = {
     """,
     Commands.META   : "What are the top 3 highest win rate champions for each roles (Top, mid, jg, support, adc) in the game now?",
     Commands.NEWS   : "Get the latest League of Legends patch notes and summarize it.",
-    Commands.GITHUB : "GitHub Repository: https://github.com/JunRong19",
+    Commands.GITHUB : "GitHub Repository: https://github.com/JunRong19/MeepyBot",
 }
 
 async def execute_command(command:Commands) -> str:
