@@ -8,7 +8,7 @@ Simply send a friend request to **Meepy#Bot** to get started!
 <img width="603" height="134" alt="image" src="https://github.com/user-attachments/assets/89e38ad0-4cc5-451b-896a-c8e30ffd403a" />
 
 ## Real-world usage
-Instead of relying on traditional methods like web browsing or installing third-party tools, users can simply message the chatbot directly in-game to retrieve the information they need in real time.
+Instead of relying on traditional methods like web browsing or installing third-party softwares, users can simply message the chatbot directly in-game to retrieve the information they need in real time.
 
 ### Examples
 > /msg **Meepy#Bot** What does Zed build in mid lane?
@@ -20,6 +20,12 @@ Instead of relying on traditional methods like web browsing or installing third-
 > /msg **Meepy#Bot** Who is the current world champion?
 
 > /msg **Meepy#Bot** Who is the current CEO of Riot Games?
+
+**In-game message**
+<img width="505" height="187" alt="image" src="https://github.com/user-attachments/assets/d53327e4-93d6-4375-b7b8-d5da839fcaea" />
+
+**Champ select message**
+<img width="352" height="319" alt="image" src="https://github.com/user-attachments/assets/1cfb9ca9-dfb5-45df-bb0d-c2dddfb50583" />
 
 ## Features
 1. **Custom Commands**  
@@ -44,8 +50,6 @@ If you would like to modify or set up your own bot, follow the steps below.
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ### 2. Set your OpenAI API key
 
