@@ -39,6 +39,19 @@ Instead of relying on traditional methods like web browsing or installing third-
 
 ---
 
+## Frameworks & Solutions implemented
+- **LangChain agents**: Set up agents, plug in tools and switch between different models for testing. The community tools made it easy to experiment and build on top of existing components instead of starting from scratch.
+
+- **Retrieval-based tool selection (RAG-style)**: Vector embedded MCP's tools and retrieve the most relevant ones before passing them to the agent which improves tool selection accuracy and reduces unnecessary context (~3x reduced in token usage)
+
+- **Web search pipeline (SearXNG + Trafilatura + chunking)**: Self-hosted SearXNG instance to search for relevant URLs, extracts site content with Trafilatura, then chunks the content and uses vector embeddings to retrieve only the most relevant chunks, keeping context small and reducing token usage.
+
+- **Intent classifier**: Classifies user's query to decide how to route it between different agents, ensuring each request is handled by the most suitable agent.
+
+- **Safety guardrails**: Validates both input queries and output responses to ensure they are relevant to League of Legends, filtering out unrelated or off-topic requests and preventing the model from generating responses that drift away from the game context.
+
+- **Self-healing + fallback system**: If the MCP agent encounters an error during tool execution, the error is fed back into the agent to retry and self-correct, successfully resolving the majority of queries (~90%). If the issue persists after retries, the system then falls back to the web search pipeline to retrieve information instead, ensuring the user still receives a response rather than the request failing outright.
+
 ## Technical flow
 <img src="images/MeepyBot_Flow.png" width="800" alt="AI Flow"/>
 
