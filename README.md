@@ -1,3 +1,5 @@
+# Note: The bot is now offline. Thank you to everyone who tried it and supported the project!
+
 ## Introduction
 Meepy Bot is a League of Legends AI chatbot that you can add as a friend in the game. It uses the LCU ([League Client Update](https://riot-api-libraries.readthedocs.io/en/latest/lcu.html)) API to receive your messages, process them with AI agents and send replies back in real time.
 
